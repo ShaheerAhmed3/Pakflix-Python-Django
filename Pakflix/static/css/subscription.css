@@ -1,0 +1,90 @@
+body {
+    background-color: #141414;
+    color: #fff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    height: auto;
+}
+
+.header {
+    display: none;
+}
+
+.page {
+    background-color: #141414;
+    color: #fff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    padding-top: 60px;
+    height: auto;
+    min-height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer {
+    display: none;
+}
+
+.card {
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 20px;
+    margin-bottom: 20px;
+    padding: 20px;
+    width: 300px;
+    transition: transform 0.3s;
+    margin-right: 10px;
+}
+
+.card-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.card-subtitle {
+    font-size: 18px;
+    color: #f0ad4e;
+    margin-bottom: 15px;
+}
+
+.card-text {
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+.btn-subscribe {
+    background-color: #1083f0;
+    border: none;
+    border-radius: 10px;
+    transition: background-color 0.3s ease;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 1px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    color: #fff;
+}
+
+.btn-subscribe:hover {
+    background-color: #065cdd;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+@media (max-width: 768px) {
+    .page {
+        padding-top: 0;
+        padding-bottom: 50px;
+    }
+
+    .card {
+        width: 80%;
+    }
+}

@@ -1,0 +1,30 @@
+<!-- templates/results.html -->
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Query Results</title>
+</head>
+<body>
+    <h1>Query Results</h1>
+    
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Column 1</th>
+                <th>Column 2</th>
+                <!-- Add more column headers as needed -->
+            </tr>
+        </thead>
+        <tbody>
+            {% for row in rows %}
+            <tr>
+                <td>{{ row.0 }}</td>  <!-- Display first column value -->
+                <td>{{ row.1 }}</td>  <!-- Display second column value -->
+                <!-- Add more table cells (columns) to display other values -->
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+</body>
+</html>

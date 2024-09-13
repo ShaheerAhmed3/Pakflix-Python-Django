@@ -1,0 +1,63 @@
+
+body {
+    font-family: 'Netflix Sans', Arial, sans-serif;
+    background-color: #080808; /* Darker background */
+    color: #FFFFFF; /* White text */
+}
+
+.navbar-brand {
+    padding: 8px 0; /* Adjusted padding */
+    margin: 0;
+}
+
+.form-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 80px 30px 30px;
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+    background-color: #1a1a1a; /* Dark background for the form */
+    border-radius: 10px; /* Rounded corners */
+   margin-bottom: 20px;
+}
+
+.form-container h2 {
+    color: #01a5e6; /* Change to your desired color */
+}
+
+.form-control {
+    background-color: #333333; /* Darker background for inputs */
+    border-color: #555555; /* Darker border color */
+    color: #FFFFFF; /* White text */
+}
+
+.btn-primary {
+    background-color: #01a5e6; /* Blue color for the button */
+    border-color: #01a5e6; /* Blue border color */
+}
+
+.btn-primary:hover {
+    background-color: #007bff; /* Darker blue on hover */
+    border-color: #007bff;
+}
+
+footer {
+    padding: 20px 0; /* Added padding */
+    color: #CCCCCC; /* Lighter text color */
+    background-color: #2b2b2b; /* Darker background for footer */
+}
+
+footer a {
+    color: #FFFFFF; /* White color for links */
+}
+body {
+    padding-top: 15vh;
+ /* Adjust the value based on your navbar height */
+}
+
+.form-container h2.text-center {
+    color: #01a5e6; /* Change to your desired color */
+}
+
+.container.form-container{
+    padding-top: 30px;
+}

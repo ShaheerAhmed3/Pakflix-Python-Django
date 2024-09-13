@@ -1,0 +1,86 @@
+body {
+    font-family: 'Netflix Sans', Arial, sans-serif;
+    background-color: #141414; /* Dark background similar to Netflix */
+    color: #FFFFFF; /* White text */
+}
+.navbar-brand {
+    padding: 0px; /* Remove padding */
+    margin: 0px; /* Adjust margin */
+}
+
+.a{
+    padding: 0px;
+    margin: 0px;
+}
+
+
+
+
+
+.movie-card {
+    background-color: #222222; /* Dark gray background for movie card */
+    border-radius: 8px;
+    padding: 20px;
+    transition: transform 0.4s;
+}
+
+.movie-card:hover {
+    transform: scale(1.1); /* Enlarge the card when hovered */
+    
+}
+
+
+.movie-img img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 6px;
+}
+
+.movie-info {
+    margin-top: 15px;
+}
+
+.movie-title {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.movie-rating {
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+.star {
+    color: #FFD700; /* Yellow star */
+    margin-left: 5px;
+}
+
+.footer {
+    background-color: #000000; /* Black footer */
+    color: #FFFFFF; /* White text */
+    position: relative;
+    bottom: 0;
+    height: 100px;
+}
+
+
+.pagination .page-link {
+    background-color: #333333; /* Dark grey background for page links */
+    color: #FFFFFF; /* White text for page links */
+    border-color: #FFFFFF; /* White border color for page links */
+}
+
+.pagination .page-item.active .page-link {
+    background-color: #FFFFFF; /* White background for active page link */
+    color: #333333; /* Dark grey text for active page link */
+}
+
+.fa{
+    color: rgb(121, 121, 121);
+}
+
+.fa:hover{
+    color: rgb(76, 76, 76);
+}
+
+
